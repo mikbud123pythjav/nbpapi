@@ -10,7 +10,8 @@ button {
         margin: 10px 0px;   
         border: none;   
         cursor: pointer;   
-         }   
+         }
+
  form {   
         border: 3px solid #f1f1f1;   
     }   
@@ -35,4 +36,8 @@ button {
  .container {   
         padding: 25px;   
         background-color: lightblue;  
-    }   
+    }
+
+     #afterRegister{
+        text-align:center
+     }
