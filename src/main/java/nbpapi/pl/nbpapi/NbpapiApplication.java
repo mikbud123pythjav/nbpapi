@@ -9,5 +9,4 @@ public class NbpapiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(NbpapiApplication.class, args);
 	}
-
 }
