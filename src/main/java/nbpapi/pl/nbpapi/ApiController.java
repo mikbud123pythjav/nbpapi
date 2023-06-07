@@ -12,13 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 @RequestMapping("/")
 public class ApiController {
-    @Autowired
-    private final ApiService apiService;
-
-    public ApiController(ApiService apiService) {
-        this.apiService = apiService;
-    }
-
 
     @PostMapping(value="/processForm")
     public String precessForm(@RequestParam("username") String username, @RequestParam("password") String password){

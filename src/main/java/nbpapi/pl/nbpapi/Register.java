@@ -1,6 +1,5 @@
 package nbpapi.pl.nbpapi;
 
-
 import lombok.Data;
 import org.springframework.stereotype.Component;
 
